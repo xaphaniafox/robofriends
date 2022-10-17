@@ -1,14 +1,15 @@
 import React from 'react';
 
-class Card extends React.Component {
-  render () {
-    return (
-      <div className='f1 tc'>
-        <h1>Hello World</h1>
-        <p>Welcome to React</p>
+const Card = () => {
+  return (
+    <div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+      <img alt='robots' src='https://robohash.org/test?size=200x200' />
+      <div>
+        <h2>Jane Doe</h2>
+        <p>jane.doe@gmail.com</p>
       </div>
-    );
-  }
+    </div>
+  )
 }
 
 export default Card;
